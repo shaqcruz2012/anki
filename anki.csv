@@ -1,0 +1,90 @@
+﻿Term,Next one
+DRW uses this to push applications on vim,SSH
+Devops uses vim to ,migrate servers
+pwd,print working directory
+everythings saved need to push,git add then git commit -m 'comments' then git push
+need to go up one directory,cd ..
+need to go back to the home directory,cd ~
+I need to create a file in the terminal in this folder,touch
+I need to show all files in a directory in the terminal,ls
+I need to show all files in a directory in the terminal but in a long format,ls -l
+I need to show all files even hidden ones in a long list,ls -la
+I need to remove a file,rm
+I need to remove a directory,rm -r
+What is git?,it's a local control system used to track changes to files
+What's the key difference between git and github?,"The keyword is local, once you start pushing snapshots they can clone and download"
+What problem does git solve?,"Instead of emailing yourself versions ofcode, git provides sovepoints and possible backups of code should they be needed"
+What's a fun example to use when explaining git to people?,"It's like saving your game before a big boss battle, saving before you do something risky"
+Im in git and I need to create a special folder that holds commits,git init
+I need to add fileName to a staging area,git add fileName
+I need to add all the changes from this directory to the staging area,git add .
+I need to add a message that says 'fixed bugs' with this push ,git commit -m 'fixed bugs'
+I need to check all the files in the staging area,git status
+I need to remove a file fileName from the staging area,git rm -cached fileName
+I need to rename the branch to Main,git branch -M main
+what are the 5 elements of a head,you html language meta charset meta httpequiv meta name / content and title you can also put style in there two and any bootstrap plugins
+how do you write the html language in the header,"<html lang=""en"">"
+how do you write the metadata characterset in head,"<meta charset=""UTF-8> here you set the characterset to UTF-8"
+how do you write the metadata http-equivalent tag In head,"<meta http-equiv=""X-UA=Compatible"">"
+how do you write the metadata name and content tag in head,"<meta name""viewport"" content=""width-device-width, initial-scale-1.0"">"
+what block is after head in an html file,body
+how do you write an image element,image tag with src and alt
+what's p in an html file,"the <p> tag defines a paragraph, enclosed will be a separate paragraph"
+what ul in an html file,<ul> tag stands for unordered list and creates bulletpoint list has li tags
+what do you put in a ul tag,li list items that create the specific points
+what is li in an html file,<li> are list items 
+what is ol In an html file,<ol> stands for ordered list and creates a numbered list
+what do you put inside ol tags,<li> are list items that you put inside ol and ul tags
+where do you put style blocks in html files,"It is generally considered best practice to put the CSS <style> block in the <head> section of an HTML document because it separates the presentation (CSS) from the structure (HTML) and allows the browser to load and apply the styles before the content is rendered.
+
+When the browser loads an HTML document, it starts parsing the HTML and building the Document Object Model (DOM). As it encounters a <style> block in the <head> of the document, it will load and apply the styles before it finishes building the DOM. This means that when the content is rendered, all of the styles are already in place, resulting in a smoother display of the final rendered page.
+
+Additionally, if the styles are located within the <head> of the document, the browser can also start loading any linked external stylesheets before it finishes parsing the entire document, which can improve the loading performance.
+
+It's worth noting that there are some cases where it might be beneficial to include the CSS styles inline, directly in the HTML element, but this is generally not considered good practice and should be avoided if possible. "
+what are 4 different places I can include styles if I'm running bootstrap:,"External CSS file, inline styles, CSS preprocessor, Bootstraps CDN(content delivery network)"
+How do I link an html file to an extenal CSS file,"To link an HTML file to a CSS file named ""style.css"" that is in the same directory, you will need to add a <link> tag in the <head> of your HTML file. The <link> tag has several attributes, but the most important ones are rel, type, and href. <link rel=""stylesheet"" type=""text/css"" href=""style.css""> The rel attribute specifies the relationship between the HTML file and the linked file, in this case, it is a stylesheet.
+The type attribute specifies the type of the file being linked, in this case, it is a ""text/css"" file.
+The href attribute specifies the location of the file being linked, in this case, it is ""style.css"" and located in the same directory as the HTML file.
+It's worth noting that if you are using relative paths to link your CSS files, the path will be relative to the location of the HTML file, so make sure that the path is correct and the CSS file is in the same directory as the HTML file."
+What is an inline style and is it recommended?,"You can also include Bootstrap's CSS in the <head> of your HTML document using a <style> block. This is not recommended, as it can make your HTML more difficult to read and maintain."
+What do you use for styling in bootstrap if you want something dynamic?,"1. CSS preprocessors: Bootstrap also supports CSS preprocessors like Sass, Less, and Stylus, which allow you to write your styles in a more dynamic and maintainable way. You can then use a tool to compile your preprocessed CSS into regular CSS that can be included in an external file or <style> block."
+What do you use for styling in bootstrap if you want to reduce server load?,1. CDN (Content Delivery Network): Another common way to use bootstrap is to import bootstrap's CSS and JS files from a CDN (Content Delivery Network) in the <head> of your HTML document. This is considered a best practice as it reduces the load on your server.
+what does CSS stand for,CSS stands for Cascading Style Sheets.
+what is bootstrap,"Bootstrap is a free and open-source front-end development framework that is used to create responsive and mobile-first websites. It is a collection of CSS and JavaScript components that are designed to make it easier to create consistent, responsive designs. Bootstrap provides a set of pre-designed CSS classes and JavaScript plugins that you can use to create common web page elements like forms, buttons, navigation bars, and modals. It also includes a responsive grid system that makes it easy to create layouts that adapt to different screen sizes.
+
+Bootstrap was developed and is maintained by Twitter and it was initially released in 2011. It's based on the concept of mobile first design, meaning that the framework is built to adapt to different screen sizes, and it's compatible with all modern browsers. Bootstrap is built with HTML, CSS, and JavaScript and it's easy to learn and use, especially for developers who are familiar with web development.
+
+Bootstrap is widely used and popular among developers, as it allows them to quickly build responsive and mobile-friendly websites. It's also highly customizable, and you can easily modify the default styles to match your specific design needs."
+what are the benefits of bootstrap?,"Speed up the development process and make it more consistent by providing pre-designed CSS classes and JavaScript plugins.
+Make it easy to create responsive designs that adapt to different screen sizes, thanks to its responsive grid system.
+Save time by not having to design common web page elements like forms, buttons, navigation bars, and modals from scratch.
+Provide a consistent and professional look and feel across all devices and platforms."
+what do I need in html to run bootstrap?,"Bootstrap CSS: You will need to include the Bootstrap CSS file in the <head> of your HTML document. You can do this by linking to a local copy of the file, or by linking to a CDN (Content Delivery Network) version of the file. Bootstrap JavaScript: You will also need to include the Bootstrap JavaScript file, typically at the bottom of the <body> section of your HTML document, before the closing </body> tag. This is required to enable certain Bootstrap features like modals and tooltips. It's worth noting that if you're using the JavaScript component of Bootstrap, you will also need to include jQuery, as Bootstrap's JavaScript plugins are built on top of it.
+And also make sure that the links of the css and js files are correct and accessible.
+
+By including these two files in your HTML document, you will be able to use the pre-designed CSS classes and JavaScript plugins provided by Bootstrap to create responsive and mobile-friendly websites."
+"when styling html elements, should I use style attributes or class and id attributes?",you should use class and id attributes to separate the presentation from the structure of the code to be more maintable and organized
+what is the class attribute,"class attribute applies a specific CSS class to html element, you can define the styles for a class in CSS file then apply that to one or more elements. You can reuse the same style across multiple elements for maintability."
+what is the id attribute,"id attribute applies a specific CSS id to an html element, usable once per page. Useful when you need to style a single element in HTML. Like classes you can define the style for an id in CSS then apply that id to an element."
+what is the style attribute,"style attribute: The style attribute is used to apply inline CSS styles to an HTML element. It allows you to define the styles for an element directly in the HTML code. This method can make your code less maintainable and harder to update, because the styles are not separated from the HTML, and you would need to update every single element individually in case you want to make a change."
+when can style be best option?,"while it's best practice to avoid using the style attribute and instead use classes and ids, there are certain situations when it may be the best option such as small, one-off styles, dynamically generated elements, or testing or prototyping"
+"A class attribute has two words, how do you write the style for that?","When a class attribute has two words, you can write the style for that in your CSS file by concatenating the two words with a ""."" (dot) in between."
+why use a SASS or LESS file?,"SASS (Syntactically Awesome Style Sheets) and LESS (Leaner Style Sheets) are CSS preprocessors. They allow you to write your CSS styles in a more organized and maintainable way, by adding features such as variables, mixins, functions, and more.
+
+Here are some benefits of using SASS or LESS:
+
+Variables: SASS and LESS allow you to use variables in your CSS, which makes it easier to maintain and update your styles. For example, you can define a variable for a color and use that variable throughout your stylesheet, rather than having to update the color value in multiple places.
+
+Mixins: Mixins are a way to reuse a group of CSS styles across multiple elements. This can help you to avoid writing repetitive CSS and make your code more maintainable.
+
+Nesting: SASS and LESS allow you to nest selectors, which can help to make your CSS code more readable and organized.
+
+Functions and operations: SASS and LESS provide built-in functions and operations that can be used to perform calculations and transformations on your CSS styles, such as color manipulation, math operations, etc.
+
+Extends: SASS and LESS allow you to share the common styles across multiple selectors by extending them.
+
+Compatibility: SASS and LESS are compatible with CSS, you can use any CSS code inside of a SASS or L"
+I want to make a file on command line,touch file
+how do I make multiple files on command line,touch file file
+how do I open up file from command line ,code file or path/file
